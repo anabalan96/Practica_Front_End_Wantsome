@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ana Balan: Homework HTML Elements and Attributes - Exercitiu 4</title>
+</head>
+
+<body>
+    <form>
+        <h2>My feedback form</h2>
+        <ul>
+            <li>Name:<input type="text" name="nume"></li>
+            <li>Email: <input type="email" name="email"></li>
+            <li>Password:<input type="password" name="parola"></li>
+            <br>
+
+            <li>Please check all the emontions that apply to you:
+                <ul>
+                    <li>Angry <input type="checkbox" name="emontion" checked></li>
+                    <li>Sad <input type="checkbox" name="emontion"></li>
+                    <li>Happy <input type="checkbox" name="emontion"></li>
+                    <li>Ambialent <input type="checkbox" name="emontion"></li>
+                </ul>
+            </li>
+
+            <li>How satisfied are you with our service?
+                <ul>
+                    <li>Very satisfied <input type="radio" name="service" checked></li>
+                    <li>Satisfied <input type="radio" name="service"></li>
+                    <li>Didn't care <input type="radio" name="service"></li>
+                    <li>Dissatisfied <input type="radio" name="service"></li>
+                    <li>Very dissatisfied <input type="radio" name="service"></li>
+                </ul>
+            </li>
+            <br>
+            <li> Further comments:
+                <textarea id="mesaj" rows="3" cols="25"></textarea></li>
+            <li>Bio Photo:
+                <input type="file" name="myFile">
+            </li>
+            <li>
+                <label for="location">Location visited</label>
+                <select id="location">
+                    <option>Wantsome Iasi</option>
+                    <option selected>Select location</option>
+                    <option>Wantsome Bucuresti</option>
+                </select>
+            </li>
+            <br>
+            <li><input type="submit" value="Submit"></li>
+        </ul>
+
+    </form>
+</body>
+
+</html>

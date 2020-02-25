@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Ana Balan: Homework HTML Elements and Attributes - Exercitiu 2</title>
+</head>
+
+<body>
+    <p>
+        <h1> Travel reservation form</h1>
+        <h3>*denotes mandatory</h3>
+    </p>
+    <form>
+        Full name*:<br>
+        <input type="text" name="fullname" placeholder="Firstname Lastname" required>
+        <br>
+        Email address*:<br>
+        <input type="email" name="email" placeholder="EMAIL_ADRRESS" required>
+        <br>
+        <label for="Tour">Select Tour Package*:</label>
+        <br>
+        <select id="Tour" required>
+            <option value="goa">Goa</option>
+            <option value="bali">Bali</option>
+            <option value="maldives">Maldives</option>
+            <option value="delhi">Delhi</option>
+            <option value="dubai">Dubai</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+        <br>
+        Arrival date*:<br>
+        <input type="date" name="arrival date" required>
+        <br>
+        Number of Persons*:<br>
+        <input type="text" name="nrofpersons" placeholder="UNKNOWN_TYPE" required>
+        <br>
+        What would you want to avail?*<br>
+        <input type="checkbox" name="benefit" value="boarding"> Boarding<br>
+        <input type="checkbox" name="benefit" value="fooding"> Fooding<br>
+        <input type="checkbox" name="benefit" value="sight seeing"> Sight seeing
+        <br>
+        Discount Cupon code:<br>
+        <input type="text" name="discount code">
+        <br>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"> Terms and conditions*</a>
+        <br>
+        <input type="radio" name="terms" value="agree" required>I agree
+        <input type="radio" name="terms" value="disagree">I disagree
+        <br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+
+</html>
