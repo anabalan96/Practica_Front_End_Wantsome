@@ -1,0 +1,44 @@
+h1 {
+    font-size: 40px;
+}
+
+.main {
+    font-family: arial;
+}
+
+#title { 
+    text-decoration: underline;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href*="wantsome"] { 
+    color: aqua;
+}
+
+a[title="External link"] {
+    font-style: italic;
+}
+
+a:hover {
+    color:red;
+}
+
+a:last-child:focus {
+    text-decoration: underline;
+}
+
+footer::after {
+    content: "Continut adaugat din CSS";
+    background-color: yellow;
+}
+
+p::first-letter {
+    font-size: 60px;
+}
+
+div[type=text]:focus{
+    background-color: grey;
+}
