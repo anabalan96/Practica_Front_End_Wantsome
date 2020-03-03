@@ -1,0 +1,10 @@
+div{
+    border: red dotted 15px;
+    background-clip: content-box;
+    padding: 15px;
+    width: 500px;
+    height: 265px;
+    margin-left: 600px ;
+    margin-top: 270px;
+   
+}

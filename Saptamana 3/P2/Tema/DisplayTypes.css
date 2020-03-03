@@ -1,0 +1,10 @@
+h1{
+    visibility: hidden;
+}
+ h2{
+     display: none;
+ }
+
+ li{
+ display: inline;
+ }

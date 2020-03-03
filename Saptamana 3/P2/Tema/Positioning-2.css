@@ -1,0 +1,43 @@
+.container{
+    margin-bottom: 20px;
+    font-family: Arial narrow;
+    font-size: 20px;
+}
+
+nav{
+  width: 160px;
+  float: left 
+}
+
+nav a{
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    color: rgb(230, 57, 230);
+    font-size: 17px;
+}
+
+.sections{   
+    position: static;
+    margin-left: 160px;
+    margin-right: 400px;
+}
+
+.section2{
+    background-color: rgb(240, 238, 238);
+    color: rgb(148, 62, 148);
+}
+
+section{
+    padding: 10px
+}
+
+span {
+    background-color: rgb(240, 238, 238);
+    font-family: NSimSun;
+    font-size: 15px;
+}
+
+div.footer{
+    float: bottom;
+    margin-left: 542px;
+}

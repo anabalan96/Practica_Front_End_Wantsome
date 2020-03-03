@@ -1,0 +1,29 @@
+body{
+    background-color:pink;
+}
+.patrat1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.patrat2{
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.patrat3{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 300px;
+}
