@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form class="formContainer" id="form">
+        <h1>Get your own Site 42 Sites account in seconds</h1>
+
+        <div id="username">
+            <label for="user">USERNAME:</label>
+            <br>
+            <input name="user" type="text">
+            <p>(Must be at least 4 characters, letters and numbers only)</p>
+            <br>
+        </div>
+
+        <div id="email">
+            <label for="email">EMAIL ADDRESS:</label>
+            <br>
+            <input name="email" type="text">
+            <p>
+                We send your registration email to this address.(Double-check your
+                email address before continuing.)
+            </p>
+            <br>
+        </div>
+
+        <div id="first-name">
+            <label for="firstname">FIRST NAME:</label>
+            <br>
+            <input type="text" name="firstname">
+            <p>(Must be input.)</p>
+            <br>
+        </div>
+
+        <div id="last-name">
+            <label for="lastname">LAST NAME:</label>
+            <br>
+            <input type="text" name="lastname">
+            <p>(Must be input.)</p>
+            <br>
+        </div>
+
+        <div id="nickname">
+            <label for="nickname">NICKNAME:</label>
+            <br>
+            <input type="text" name="nickname">
+        </div>
+        <br>
+
+        <div id="phone">
+            <label for="phone">PHONE:</label>
+            <br>
+            <input type="number" name="phone">
+            <p>(Must be at least 10 characters, number only.)</p>
+            <br>
+        </div>
+
+        <div class="radio">
+            <label for="pick">
+                <input type="radio" name="pick" checked>GIMME A SITE!
+            </label>
+            <br>
+            <label for="pick">
+                <input type="radio" name="pick">JUST A USERNAME, PLEASE.
+            </label>
+        </div>
+        <br>
+        <button type="submit" id="button">NEXT</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>
