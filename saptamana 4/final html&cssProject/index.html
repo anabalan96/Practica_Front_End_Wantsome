@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ThinyLoveProject</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container-first">
+        <div class="background-image"></div>
+        <div class="container-first-content">
+            <section class="first-content-up">
+                <figure><img class="logo-image" alt="logo"
+                        src="data:image/png;base64,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">
+                </figure>
+                <p class="introducing">Introducing</p>
+                <p class="tiny">TinyLove</p>
+                <div class="social-media-icons">
+                    <a href="https://mail.google.com/" target="_blank"><i class="icon far fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/" target="blank"><i class="icon fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/" target="blank"><i class="icon fab fa-twitter"></i></a>
+                </div>
+
+                <div class="first-content-down">
+                    <p class="enticing-title">Enticing statements goes here</p>
+                    <p class="enticing-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam natus
+                        veniam sunt
+                        praesentium, quod eveniet veritatis consequuntur maxime voluptates repellat, iure aliquid
+                        doloribus
+                        sint eligendi laudantium. Quo voluptatem est nam.</p>
+                </div>
+                <div class="app-store-buttons">
+                    <a href="https://play.google.com/store?gl=RO" target="_blank">
+                        <img class="app-button" alt="google"
+                            src="https://images.squarespace-cdn.com/content/v1/5ab0635af2e6b1d58de13643/1560349735017-HPLW6U8R5RDTCDM7A2P9/ke17ZwdGBToddI8pDm48kC1WcDGxTir9tggkos-3sKIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dgSCaLnHa-4pmZSP62ZSvDsp7PtSMvao4k-BCk7JHsC0CjLISwBs8eEdxAxTptZAUg/Android.png?format=300w"></a>
+                    <a href="https://www.apple.com/ios/app-store/" target="_blank">
+                        <img class="app-button" alt="ios"
+                            src="https://images.squarespace-cdn.com/content/v1/5ab0635af2e6b1d58de13643/1560349705657-1UCZBO2RE9FI3YTH738T/ke17ZwdGBToddI8pDm48kBQgd3xDKRxJTcB8GVL2ProUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dq3ds0rExfafAtWee6oSX-TxBkEnQjdYIaffxsY5nk3SCjLISwBs8eEdxAxTptZAUg/iOS.png"></a>
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="container-second">
+        <div class="poll">
+            <i class="fas fa-poll"></i>
+            <h1>Section title</h1>
+            <p class="container-second-heading">Heading of this section</p>
+            <p class="container-second-text">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Temporibus veniam sit iure pariatur
+                ipsum?</p>
+        </div>
+        <div class="user">
+            <i class="fas fa-user-circle"></i>
+            <h1>Section title</h1>
+            <p class="container-second-heading">Heading of this section</p>
+            <p class="container-second-text">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Temporibus veniam sit iure pariatur
+                ipsum?</p>
+        </div>
+        <div class="file">
+            <i class="far fa-file-alt"></i>
+            <h1>Section title</h1>
+            <p class="container-second-heading">Heading of this section</p>
+            <p class="container-second-text">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Temporibus veniam sit iure pariatur
+                ipsum ?</p>
+        </div>
+    </section>
+    <div class="container-second-bottom">
+        <p class="container-bott-text">It's the next generation of location based networking!</p>
+    </div>
+    <section class="container-third">
+        <div class="container-third-top">
+            <p class="container-third-top-title">See how it works!</p>
+        </div>
+        <div class="pen-3c phone-container-icon"><i class="fas fa-pen"></i></div>
+        <div class="container-third-first-content">
+            <p class="subtitle">Heading goes here.</p>
+        </div>
+        <div class="container-third-firstC-text">
+            <p class="phone-text">Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.
+                Molestias odio consectetur accusantium
+                amet doloribus. Tempora soluta nostrum
+                porro facilis amet enim sunt corrupti
+                provident, accusamus sed explicabo,
+                ratione quasi nobis!
+                Molestias odio consectetur accusantium
+                amet doloribus.
+            </p>
+        </div>
+        <div class="c3-first-Photo"> <img class="phone-image" alt="smarphone"
+                src="https://myapptemplates.com/wp-content/uploads/2014/08/Activity-App-Template-iPhone-iOS7-Half-Shot1.png">
+        </div>
+    </section>
+    <section class="container-fourth">
+        <div class="bars-c4 phone-container-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="container-fourth-first-content">
+            <p class="subtitle">Heading goes here.</p>
+        </div>
+        <div class="container-fourth-firstC-text">
+            <p class="phone-text">Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.
+                Molestias odio consectetur accusantium
+                amet doloribus. Tempora soluta nostrum
+                porro facilis amet enim sunt corrupti
+                provident, accusamus sed explicabo,
+                ratione quasi nobis!
+                Molestias odio consectetur accusantium
+                amet doloribus.
+            </p>
+        </div>
+        <div class="c4-first-photo">
+            <img class="phone-image" alt="smarphone"
+                src="https://myapptemplates.com/wp-content/uploads/2014/08/Activity-App-Template-iPhone-iOS7-Half-Shot1.png">
+        </div>
+    </section>
+    <section class="container-fifth">
+        <div class="map-marker-c5 phone-container-icon">
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="container-fifth-first-content">
+            <p class="subtitle">Heading goes here</p>
+        </div>
+        <div class="container-fifth-firstC-text">
+            <p class="phone-text">Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.
+                Molestias odio consectetur accusantium
+                amet doloribus. Tempora soluta nostrum
+                porro facilis amet enim sunt corrupti
+                provident, accusamus sed explicabo,
+                ratione quasi nobis!
+                Molestias odio consectetur accusantium
+                amet doloribus.
+            </p>
+        </div>
+        <div class="c5-first-photo">
+            <img class="phone-image" alt="smarphone"
+                src="https://myapptemplates.com/wp-content/uploads/2014/08/Activity-App-Template-iPhone-iOS7-Half-Shot1.png">
+        </div>
+    </section>
+    <section class="container-sixth">
+        <div class="sixth-container-title">
+            <p class="c6-title">Get in Touch</p>
+        </div>
+        <form class="form">
+            <label for="name">Name:*<br></label>
+            <input id="name" type="text" name="name">
+            <br><br>
+            <label for="email">Email Address:*</label><br>
+            <input id="email" type="email" name="email">
+            <br><br>
+            <label for="subject">Subject:*</label><br>
+            <input id="subject" type="text" name="subject">
+            <br><br>
+            <label for="textarea">Message:*</label><br>
+            <textarea id="textarea" name="mesaje" rows="3" cols="20"></textarea><br>
+            <input class="submit" type="submit"><br><br>
+        </form>
+    </section>
+    <footer>
+        <p>© Tiny Love 2020</p>
+    </footer>
+
+</body>
+
+</html>
