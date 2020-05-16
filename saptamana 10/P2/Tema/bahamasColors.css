@@ -1,0 +1,22 @@
+p{
+    
+    display: inline-flex;
+    border-radius: 30%; 
+    margin-block-end: 0;
+    margin-block-start: 0;
+    flex-direction: row-reverse;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    
+    
+    
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
